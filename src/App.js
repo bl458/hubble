@@ -18,9 +18,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Header />
-      <Container>
-        <h1>This is an app</h1>
-      </Container>
+      <Container></Container>
     </ThemeProvider>
   );
 }
