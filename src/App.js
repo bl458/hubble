@@ -1,10 +1,11 @@
 import { ThemeProvider } from "styled-components";
-import Card from "./components/Card";
 
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
-import { Container } from "./components/styles/Container.styled";
 import GlobalStyles from "./components/styles/Global";
+import { Container } from "./components/styles/Container.styled";
 
 import CARD_CONTENT from "./constants/CardContent";
 
@@ -28,6 +29,7 @@ function App() {
           <Card key={idx} item={item} />
         ))}
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 }
