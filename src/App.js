@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 
 import { Container } from "./components/styles/Container.styled";
+import GlobalStyles from "./components/styles/Global";
 
 const theme = {
   colors: {
@@ -15,6 +16,7 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <Header />
       <Container>
         <h1>This is an app</h1>
