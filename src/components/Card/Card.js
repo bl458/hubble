@@ -1,4 +1,4 @@
-import { StyledCard } from "./styles/Card.styled";
+import { StyledCard } from "./Card.styled";
 
 export default function Card({ item: { id, title, body, image } }) {
   return (

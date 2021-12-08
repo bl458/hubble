@@ -1,8 +1,9 @@
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "./SocialIcons/SocialIcons";
 
-import { Container } from "./styles/Container.styled";
-import { Flex } from "./styles/Flex.styled";
-import { StyledFooter } from "./styles/Footer.styled";
+import { StyledFooter } from "./Footer.styled";
+
+import { Container } from "../common/Container.styled";
+import { Flex } from "../common/Flex.styled";
 
 export default function Footer() {
   return (
@@ -12,12 +13,8 @@ export default function Footer() {
 
         <Flex>
           <ul>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </li>
             <li>+1-543-123-4567</li>
-            <li>example@huddle.com</li>
+            <li>hud@huddle.com</li>
           </ul>
 
           <ul>

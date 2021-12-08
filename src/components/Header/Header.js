@@ -1,7 +1,8 @@
-import { Container } from "./styles/Container.styled";
-import { Image, Logo, Nav, StyledHeader } from "./styles/Header.styled";
-import { Button } from "./styles/Button.styled";
-import { Flex } from "./styles/Flex.styled";
+import { Image, Logo, Nav, StyledHeader } from "./Header.styled";
+
+import { Container } from "../common/Container.styled";
+import { Button } from "../common/Button.styled";
+import { Flex } from "../common/Flex.styled";
 
 export default function Header() {
   return (
