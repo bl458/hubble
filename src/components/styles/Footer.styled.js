@@ -18,14 +18,14 @@ export const StyledFooter = styled.footer`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    text-align: "center";
+    text-align: center;
 
     ul {
       padding: 0;
     }
 
     p {
-      text-align: "center";
+      text-align: center;
     }
   }
 `;
